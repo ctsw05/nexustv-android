@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6000000"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <LinearLayout
+        android:layout_width="900dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:background="#141414"
+        android:padding="32dp">
+
+        <!-- Title -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="24dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="REMOTE CONTROL GUIDE"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="sans-serif-medium" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Press OK or Back to close"
+                android:textSize="13sp"
+                android:textColor="#888888" />
+        </LinearLayout>
+
+        <!-- Two columns -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Main Screen -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginRight="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MAIN SCREEN"
+                    android:textSize="11sp"
+                    android:textColor="#0EA5E9"
+                    android:letterSpacing="0.1"
+                    android:fontFamily="sans-serif-medium"
+                    android:layout_marginBottom="12dp" />
+
+                <!-- rows -->
+                <include layout="@layout/item_help_row" android:id="@+id/h1"/>
+                <include layout="@layout/item_help_row" android:id="@+id/h2"/>
+                <include layout="@layout/item_help_row" android:id="@+id/h3"/>
+                <include layout="@layout/item_help_row" android:id="@+id/h4"/>
+                <include layout="@layout/item_help_row" android:id="@+id/h5"/>
+                <include layout="@layout/item_help_row" android:id="@+id/h6"/>
+                <include layout="@layout/item_help_row" android:id="@+id/h7"/>
+
+            </LinearLayout>
+
+            <!-- Divider -->
+            <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#1A2530" android:layout_marginRight="16dp"/>
+
+            <!-- Fullscreen -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FULLSCREEN / WATCHING"
+                    android:textSize="11sp"
+                    android:textColor="#0EA5E9"
+                    android:letterSpacing="0.1"
+                    android:fontFamily="sans-serif-medium"
+                    android:layout_marginBottom="12dp" />
+
+                <include layout="@layout/item_help_row" android:id="@+id/h8"/>
+                <include layout="@layout/item_help_row" android:id="@+id/h9"/>
+                <include layout="@layout/item_help_row" android:id="@+id/h10"/>
+                <include layout="@layout/item_help_row" android:id="@+id/h11"/>
+                <include layout="@layout/item_help_row" android:id="@+id/h12"/>
+                <include layout="@layout/item_help_row" android:id="@+id/h13"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

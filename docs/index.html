@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Nexus TV — Android TV IPTV Player</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #0a0a0a; color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+
+  header {
+    background: #0a0a0a;
+    border-bottom: 1px solid #1a2530;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  header h1 { font-size: 24px; color: #fff; }
+  header span { font-size: 13px; color: #0ea5e9; background: #0d2233; padding: 3px 10px; border-radius: 20px; }
+
+  .hero {
+    text-align: center;
+    padding: 80px 20px 60px;
+    background: linear-gradient(180deg, #0d1117 0%, #0a0a0a 100%);
+  }
+  .hero h2 { font-size: 48px; font-weight: 700; margin-bottom: 16px; }
+  .hero h2 span { color: #0ea5e9; }
+  .hero p { font-size: 18px; color: #888; max-width: 560px; margin: 0 auto 40px; line-height: 1.6; }
+
+  .btn {
+    display: inline-block;
+    background: #0ea5e9;
+    color: #fff;
+    padding: 16px 36px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 8px;
+    transition: background 0.2s;
+  }
+  .btn:hover { background: #0284c7; }
+  .btn.secondary { background: #1a2530; color: #ccc; }
+  .btn.secondary:hover { background: #1e2a35; }
+
+  .features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 24px;
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 0 24px;
+  }
+  .feature {
+    background: #0d0d0d;
+    border: 1px solid #1a2530;
+    border-radius: 12px;
+    padding: 28px;
+  }
+  .feature .icon { font-size: 32px; margin-bottom: 12px; }
+  .feature h3 { font-size: 16px; font-weight: 600; margin-bottom: 8px; color: #fff; }
+  .feature p { font-size: 14px; color: #888; line-height: 1.6; }
+
+  .install {
+    max-width: 700px;
+    margin: 0 auto 80px;
+    padding: 0 24px;
+  }
+  .install h2 { font-size: 28px; margin-bottom: 32px; text-align: center; }
+  .step {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 28px;
+    align-items: flex-start;
+  }
+  .step-num {
+    background: #0ea5e9;
+    color: #fff;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 16px;
+    flex-shrink: 0;
+  }
+  .step-content h3 { font-size: 16px; font-weight: 600; margin-bottom: 6px; }
+  .step-content p { font-size: 14px; color: #888; line-height: 1.6; }
+  .step-content code {
+    display: block;
+    margin-top: 8px;
+    background: #141414;
+    border: 1px solid #1a2530;
+    border-radius: 6px;
+    padding: 10px 14px;
+    font-size: 13px;
+    color: #0ea5e9;
+    word-break: break-all;
+  }
+
+  footer {
+    border-top: 1px solid #1a2530;
+    text-align: center;
+    padding: 28px;
+    color: #444;
+    font-size: 13px;
+  }
+  footer a { color: #0ea5e9; text-decoration: none; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>📺 Nexus TV</h1>
+  <span>v2.0.0</span>
+</header>
+
+<section class="hero">
+  <h2>Your IPTV player for <span>Android TV</span></h2>
+  <p>Load any M3U playlist, browse live TV with a full channel guide, and enjoy automatic updates — all for free.</p>
+  <a class="btn" href="https://github.com/ctsw05/nexustv-android/releases/latest/download/nexustv.apk">
+    ⬇️ Download APK
+  </a>
+  <a class="btn secondary" href="https://github.com/ctsw05/nexustv-android">
+    View on GitHub
+  </a>
+</section>
+
+<section class="features">
+  <div class="feature">
+    <div class="icon">📋</div>
+    <h3>M3U Playlist Support</h3>
+    <p>Load any M3U playlist by URL or local file. Supports thousands of channels with group categories.</p>
+  </div>
+  <div class="feature">
+    <div class="icon">📅</div>
+    <h3>Built-in TV Guide</h3>
+    <p>Now playing, up next, and upcoming shows right under the player. Full EPG support via XMLTV.</p>
+  </div>
+  <div class="feature">
+    <div class="icon">⭐</div>
+    <h3>Favorites & History</h3>
+    <p>Mark channels as favorites and quickly jump back to recently watched channels.</p>
+  </div>
+  <div class="feature">
+    <div class="icon">🔄</div>
+    <h3>Auto Updates</h3>
+    <p>The app checks for updates on launch and installs them automatically — no manual reinstall needed.</p>
+  </div>
+  <div class="feature">
+    <div class="icon">📺</div>
+    <h3>D-Pad Optimized</h3>
+    <p>Fully designed for TV remotes. Navigate channels, search, and browse categories without a mouse.</p>
+  </div>
+  <div class="feature">
+    <div class="icon">🔒</div>
+    <h3>No Ads, No Account</h3>
+    <p>Completely free and open source. No sign-up, no tracking, no ads.</p>
+  </div>
+</section>
+
+<section class="install">
+  <h2>How to Install</h2>
+
+  <div class="step">
+    <div class="step-num">1</div>
+    <div class="step-content">
+      <h3>Enable sideloading on your TV</h3>
+      <p>Go to Settings → System → About → click <strong>Build number 7 times</strong> to unlock developer mode. Then enable <strong>Unknown Sources</strong> in Developer Options or Security settings.</p>
+    </div>
+  </div>
+
+  <div class="step">
+    <div class="step-num">2</div>
+    <div class="step-content">
+      <h3>Install the Downloader app</h3>
+      <p>Search for <strong>Downloader by AFTVnews</strong> on the Google Play Store on your TV and install it. It's free.</p>
+    </div>
+  </div>
+
+  <div class="step">
+    <div class="step-num">3</div>
+    <div class="step-content">
+      <h3>Enter the download URL in Downloader</h3>
+      <p>Open Downloader, tap the URL bar, and type:</p>
+      <code>https://github.com/ctsw05/nexustv-android/releases/latest/download/nexustv.apk</code>
+    </div>
+  </div>
+
+  <div class="step">
+    <div class="step-num">4</div>
+    <div class="step-content">
+      <h3>Install and enjoy</h3>
+      <p>Tap <strong>Install</strong> when the download finishes. Open Nexus TV from your apps list, go to Settings, and add your M3U playlist URL.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  Nexus TV is open source and free forever. &nbsp;|&nbsp;
+  <a href="https://github.com/ctsw05/nexustv-android">GitHub</a> &nbsp;|&nbsp;
+  <a href="https://github.com/ctsw05/nexustv-android/issues">Report an Issue</a>
+</footer>
+
+</body>
+</html>

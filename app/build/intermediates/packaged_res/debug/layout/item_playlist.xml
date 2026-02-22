@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/channel_item_bg"
+    android:padding="10dp"
+    android:focusable="true"
+    android:clickable="true"
+    android:longClickable="true"
+    android:layout_marginBottom="4dp">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:gravity="center_vertical">
+
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:orientation="vertical">
+            <TextView android:id="@+id/playlistName"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="14sp" android:textColor="@color/text_primary"
+                android:fontFamily="sans-serif-medium" android:maxLines="1" android:ellipsize="end" />
+            <TextView android:id="@+id/playlistMeta"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="11sp" android:textColor="@color/text_muted"
+                android:layout_marginTop="2dp" android:maxLines="1" android:ellipsize="end"/>
+        </LinearLayout>
+
+        <TextView android:id="@+id/activeLabel"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="ACTIVE" android:textSize="10sp" android:textColor="@color/accent"
+            android:fontFamily="sans-serif-medium" android:visibility="gone"
+            android:layout_marginRight="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hold to delete"
+            android:textSize="10sp"
+            android:textColor="@color/text_muted" />
+    </LinearLayout>
+</LinearLayout>

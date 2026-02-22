@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "com.nexustv.app-merged_res-27:/drawable_tab_bg.xml.flat",
+        "source": "com.nexustv.app-main-29:/drawable/tab_bg.xml"
+    },
+    {
+        "merged": "com.nexustv.app-merged_res-27:/layout_item_playlist.xml.flat",
+        "source": "com.nexustv.app-main-29:/layout/item_playlist.xml"
+    },
+    {
+        "merged": "com.nexustv.app-merged_res-27:/layout_item_epg_panel.xml.flat",
+        "source": "com.nexustv.app-main-29:/layout/item_epg_panel.xml"
+    },
+    {
+        "merged": "com.nexustv.app-merged_res-27:/drawable_channel_item_bg.xml.flat",
+        "source": "com.nexustv.app-main-29:/drawable/channel_item_bg.xml"
+    },
+    {
+        "merged": "com.nexustv.app-merged_res-27:/xml_file_provider_paths.xml.flat",
+        "source": "com.nexustv.app-main-29:/xml/file_provider_paths.xml"
+    },
+    {
+        "merged": "com.nexustv.app-merged_res-27:/layout_item_epg_row.xml.flat",
+        "source": "com.nexustv.app-main-29:/layout/item_epg_row.xml"
+    },
+    {
+        "merged": "com.nexustv.app-merged_res-27:/layout_activity_guide.xml.flat",
+        "source": "com.nexustv.app-main-29:/layout/activity_guide.xml"
+    },
+    {
+        "merged": "com.nexustv.app-merged_res-27:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.nexustv.app-main-29:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.nexustv.app-merged_res-27:/layout_item_epg_channel.xml.flat",
+        "source": "com.nexustv.app-main-29:/layout/item_epg_channel.xml"
+    },
+    {
+        "merged": "com.nexustv.app-merged_res-27:/layout_item_help_row.xml.flat",
+        "source": "com.nexustv.app-main-29:/layout/item_help_row.xml"
+    },
+    {
+        "merged": "com.nexustv.app-merged_res-27:/drawable_search_bg.xml.flat",
+        "source": "com.nexustv.app-main-29:/drawable/search_bg.xml"
+    },
+    {
+        "merged": "com.nexustv.app-merged_res-27:/layout_overlay_help.xml.flat",
+        "source": "com.nexustv.app-main-29:/layout/overlay_help.xml"
+    },
+    {
+        "merged": "com.nexustv.app-merged_res-27:/layout_item_upcoming.xml.flat",
+        "source": "com.nexustv.app-main-29:/layout/item_upcoming.xml"
+    },
+    {
+        "merged": "com.nexustv.app-merged_res-27:/xml_network_security_config.xml.flat",
+        "source": "com.nexustv.app-main-29:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "com.nexustv.app-merged_res-27:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.nexustv.app-main-29:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.nexustv.app-merged_res-27:/layout_item_guide_channel.xml.flat",
+        "source": "com.nexustv.app-main-29:/layout/item_guide_channel.xml"
+    },
+    {
+        "merged": "com.nexustv.app-merged_res-27:/layout_activity_main.xml.flat",
+        "source": "com.nexustv.app-main-29:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.nexustv.app-merged_res-27:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.nexustv.app-main-29:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.nexustv.app-merged_res-27:/layout_item_channel.xml.flat",
+        "source": "com.nexustv.app-main-29:/layout/item_channel.xml"
+    },
+    {
+        "merged": "com.nexustv.app-merged_res-27:/drawable_btn_bg.xml.flat",
+        "source": "com.nexustv.app-main-29:/drawable/btn_bg.xml"
+    },
+    {
+        "merged": "com.nexustv.app-merged_res-27:/drawable_ic_channel_placeholder.xml.flat",
+        "source": "com.nexustv.app-main-29:/drawable/ic_channel_placeholder.xml"
+    },
+    {
+        "merged": "com.nexustv.app-merged_res-27:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.nexustv.app-main-29:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.nexustv.app-merged_res-27:/drawable_banner.png.flat",
+        "source": "com.nexustv.app-main-29:/drawable/banner.png"
+    },
+    {
+        "merged": "com.nexustv.app-merged_res-27:/layout_activity_settings.xml.flat",
+        "source": "com.nexustv.app-main-29:/layout/activity_settings.xml"
+    }
+]

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nexus TV</string>
+    <string name="no_playlist">No playlist loaded.\nGo to Settings to add an M3U playlist.</string>
+    <string name="loading">Loading…</string>
+    <string name="search_hint">Search channels…</string>
+    <string name="all_channels">All</string>
+    <string name="favorites">Favorites</string>
+    <string name="recent">Recent</string>
+    <string name="settings">Settings</string>
+    <string name="select_channel">Select a channel to start watching</string>
+    <string name="now_playing">NOW PLAYING</string>
+    <string name="add_playlist">Add M3U Playlist</string>
+    <string name="url_hint">M3U URL (http://…)</string>
+    <string name="name_hint">Playlist name</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="loading_playlist">Loading playlist…</string>
+    <string name="channels">channels</string>
+</resources>

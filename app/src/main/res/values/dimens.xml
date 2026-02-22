@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="nav_height">52dp</dimen>
+    <dimen name="channel_item_height">56dp</dimen>
+    <dimen name="channel_logo_size">36dp</dimen>
+    <dimen name="channel_list_width">300dp</dimen>
+    <dimen name="padding_xs">4dp</dimen>
+    <dimen name="padding_sm">8dp</dimen>
+    <dimen name="padding_md">12dp</dimen>
+    <dimen name="padding_lg">16dp</dimen>
+    <dimen name="radius_sm">6dp</dimen>
+    <dimen name="radius_md">10dp</dimen>
+    <dimen name="focus_border">2dp</dimen>
+    <!-- EPG Grid -->
+    <dimen name="epg_channel_col_width">160dp</dimen>
+    <dimen name="epg_row_height">64dp</dimen>
+    <dimen name="epg_header_height">40dp</dimen>
+    <dimen name="epg_min_per_dp">0.5dp</dimen>
+</resources>
