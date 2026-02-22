@@ -1,3 +1,6 @@
+Install · MD
+Copy
+
 # How to Install Nexus TV on Google TV / Android TV
 
 Nexus TV is a free IPTV player. Since it's not on the Google Play Store, you install it in a few easy steps. Takes about 2 minutes.
@@ -49,8 +52,7 @@ https://github.com/ctsw05/nexustv-android/releases/latest/download/nexustv.apk
 
 Instead of typing the full URL in Step 3, you can just type this short code in Downloader:
 
-> ### 🔢 Code: `COMING SOON`
-> *(Short code registration in progress — check back soon)*
+> ### 🔢 Code: `1681091`
 
 ---
 
